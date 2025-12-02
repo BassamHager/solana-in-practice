@@ -1,0 +1,20 @@
+{
+  "name": "spl-transfer-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bassam Hager <b2dndr1@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana-program/token": "^0.9.0",
+    "@solana/kit": "^5.0.0",
+    "@solana/web3.js": "^1.98.4"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
