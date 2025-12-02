@@ -1,0 +1,11 @@
+npx ts-node wallet.ts
+Generated new KeyPair. Wallet PublicKey:  2yi1nuG98emz1tBuHAQ3YaJQFEGna8eKe4ybhnSTPegt
+Wallet PrivateKey: CzeUngbQy4fnen9tsKBLyk2wyQU3awkXwEvpCFyBbQ5pdRwE5eE8GkNAmiqmNQan6unZhN7ApyKsNKwG8euBLL4
+Wrote secret key to guideSecret.json.
+SolanaJSONRPCError: airdrop to 2yi1nuG98emz1tBuHAQ3YaJQFEGna8eKe4ybhnSTPegt failed: Internal error
+    at Connection.requestAirdrop (/Users/douaahasan/Projects/learn/rust/solana_rust/create-spl-token/node_modules/@solana/web3.js/src/connection.ts:5663:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/douaahasan/Projects/learn/rust/solana_rust/create-spl-token/wallet.ts:48:18 {
+  code: -32603,
+  data: undefined
+}
