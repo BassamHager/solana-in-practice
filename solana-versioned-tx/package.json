@@ -1,0 +1,19 @@
+{
+  "name": "solana-versioned-tx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bassam Hager <b2dndr1@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "dotenv": "^17.2.3"
+  }
+}
